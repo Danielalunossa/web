@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="es">
+    
+    <head>
+        
+      <title>Portafolio personal</title>  
+        <meta charset="utf-8">
+        <style>
+body {
+  background-image: url('imagen/cartel-fotofinal.jpeg');
+    background-repeat: no-repeat;
+      background-attachment: fixed;
+  background-size: cover;
+}
+            
+   * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}         
+            
+            
+</style>
+        
+    
+</head> 
+        
+      <body>
+            
+ <!-- Header -->
+<div class="header">
+            
+            <h1 style="font-size:280%;">Cartel</h1>
+            <h3 style="font-size:150%;">Diferentes estilos, diferentes creaciones</h3>
+            
+            
+            
+            <p style="font-size:30px;">En esta sección, podemos apreciar los distintos trabajos de cartel que he desarrollado a lo largo del periodo de tiempo desde
+que entre a la universidad hasta el dia de hoy. He tenido la fortuna de realizar algunos carteles para eventos, en donde han
+sido expuestos y difundidos cumpliendo con su propósito; también podemos ver algunos otros hechos durante mi periodo universitario
+que me han gustado bastante.</p>
+       
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="imagen/cartel1.png" style="width:100%">
+    <img src="imagen/cartel2.jpg" style="width:100%">
+    <img src="imagen/cartel9.JPG" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="imagen/cartel3.jpg" style="width:100%">
+    <img src="imagen/cartel4.jpg" style="width:100%">
+   <img src="imagen/cartel10.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="imagen/cartel5.jpg" style="width:100%">
+    <img src="imagen/cartel6.jpg" style="width:100%">
+    
+  </div>
+  <div class="column">
+    <img src="imagen/cartel7.jpg" style="width:100%">
+    <img src="imagen/cartel8.JPG" style="width:100%">
+   
+  </div>
+</div>
+
+</body>
+</html>

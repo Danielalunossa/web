@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="es">
+    
+    <head>
+        
+      <title>Portafolio personal</title>  
+        <meta charset="utf-8">
+        <style>
+body {
+  background-image: url('imagen/fondo-ilustracion.jpg');
+    background-repeat: no-repeat;
+      background-attachment: fixed;
+  background-size: cover;
+}
+ * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}                    
+            
+            
+            
+</style>
+    
+</head> 
+        
+      <body>
+            
+             
+ <!-- Header -->
+<div class="header">
+            
+           <h1 style="font-size:280%;">Ilustración</h1>
+           <h3 style="font-size:150%;">Un vistazo a través de mis creaciones</h3>
+            
+            
+            
+          <p style="font-size:30px;">Esta es una recopilación de ilustraciones que he hecho a lo largo del tiempo desde que inicie con la carrera hasta el dia de hoy, <br>
+              existe una variación en el estilo ya que fueron hechas en distintas etapas de mi vida en este periodo.</p>
+       
+    
+    </div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="imagen/ilustracion1.JPG" style="width:100%">
+    <img src="imagen/ilustracion5.jpg" style="width:100%">
+    <img src="imagen/ilustracion9.JPG" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="imagen/ilustracion2.JPG" style="width:100%">
+    <img src="imagen/ilustracion6.jpg" style="width:100%">
+   
+  </div>  
+  <div class="column">
+    <img src="imagen/ilustracion3.jpg" style="width:100%">
+    <img src="imagen/ilustracion7.jpg" style="width:100%">
+    
+  </div>
+  <div class="column">
+    <img src="imagen/ilustracion4.jpeg" style="width:100%">
+    <img src="imagen/ilustracion8.jpg" style="width:100%">
+   
+  </div>
+</div>
+
+</body>
+</html>
+           
